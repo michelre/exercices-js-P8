@@ -1,6 +1,6 @@
 # Instructions
 
-Créez une fonction JavaScript appelée `calculate` qui prend deux nombres entiers et un opérateur en tant que paramètres (`+`, `-`, `*`, `/`). La fonction doit effectuer l'opération mathématique correspondante (addition, soustraction, multiplication ou division) et retourner le résultat.
+Créez une fonction JavaScript appelée `calculate` qui prend deux nombres entiers et un opérateur en tant que paramètres (`+`, `-`, `*`, `/`). La fonction doit effectuer l'opération mathématiques correspondante (addition, soustraction, multiplication ou division) et retourner le résultat.
 
 Aidez-vous des exemples fournis dans le code de départ pour identifier toutes les possibilités.
 

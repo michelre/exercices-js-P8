@@ -15,6 +15,10 @@ function calculateResult() {
     const display = document.getElementById('display');
     try {
         const result = eval(display.value); // Utilisation de eval pour évaluer l'expression
+        if(!isFinite(result)){
+            display.value = 'Division by zero is not allowed'
+            return
+        }
         display.value = result;
     } catch (error) {
         display.value = 'Erreur';

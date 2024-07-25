@@ -4,7 +4,7 @@ function convertToBinary() {
     const decimalInput = document.getElementById('decimalInput').value;
     
     // Vérifier si la saisie est un nombre valide
-    const decimalNumber = parseInt(decimalInput);
+    const decimalNumber = Number(decimalInput);
     if (isNaN(decimalNumber)) {
         alert('Veuillez entrer un nombre décimal valide');
         return;
